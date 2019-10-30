@@ -1,12 +1,14 @@
 package com.company;
 
+//user class
 public class User{
     private long id;
     private String first_name;
     private String last_name;
     private int age;
     private String gender;
-
+  
+    //Constructor
     public User(long id, String first_name, String last_name, int age, String gender) {
         this.id = id;
         this.first_name = first_name;
@@ -15,6 +17,7 @@ public class User{
         this.gender = gender;
     }
 
+    //getters and setters
     public long getId() {
         return id;
     }
